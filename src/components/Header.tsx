@@ -8,6 +8,7 @@ interface HeaderProps {
 
 export default function Header({ cartItemsCount, onCartClick }: HeaderProps) {
   return (
+    <div>sdf</div>
     <header className="bg-blue-600 text-white shadow-lg">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
@@ -32,5 +33,6 @@ export default function Header({ cartItemsCount, onCartClick }: HeaderProps) {
         </div>
       </div>
     </header>
+    
   );
 }
